@@ -45,12 +45,9 @@ Usage
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/vehicle-license-plate-detection.git
-   cd vehicle-license-plate-detection
-
 2. Place your video (e.g., b.mp4) in the project directory.
 
-3. Ensure YOLO models are in the /Models/ directory. You can download them from the YOLOv5 releases (e.g., yolov12m.pt for vehicle detection and Lisence_Plate.pt for license plate detection).
+3. Ensure YOLO models are in the /Models/ directory.
 
 4. Run the script:
 
@@ -64,4 +61,3 @@ Configuration
 - Vehicle Classes: The current configuration detects vehicles with the following class IDs: [2, 3, 5, 7] (car, bus, truck, motorbike in COCO dataset).
 - OCR Region: OCR is applied within a defined region of the video. Adjust the top_line_pos and bottom_line_pos variables in main.py to modify the region.
 - Pakistani Number Plates: The license plate and OCR processing is specifically designed to work with Pakistani number plates, considering common formats and character substitutions.
-
