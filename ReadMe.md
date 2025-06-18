@@ -48,6 +48,7 @@ Usage
 2. Place your video (e.g., b.mp4) in the project directory.
 
 3. Ensure YOLO models are in the /Models/ directory.
+https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12m.pt
 
 4. Run the script:
 
